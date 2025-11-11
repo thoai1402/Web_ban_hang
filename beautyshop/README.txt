@@ -1,0 +1,1 @@
+BeautyShop - Project for portfolio/CV. Open index.html in browser to view the site.

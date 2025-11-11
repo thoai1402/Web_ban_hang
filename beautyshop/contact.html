@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Liên hệ | BeautyShop</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">🌸 <span>BeautyShop</span></div>
+      <nav class="main-nav">
+        <a href="index.html">Trang chủ</a>
+        <a href="products.html">Sản phẩm</a>
+        <a href="contact.html" class="active">Liên hệ</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container contact-page">
+    <h1>Liên hệ với chúng tôi</h1>
+    <div class="contact-grid">
+      <div class="contact-form">
+        <form onsubmit="sendMessage(event)">
+          <label>Họ và tên</label>
+          <input type="text" placeholder="Họ và tên" required>
+          <label>Email</label>
+          <input type="email" placeholder="Email" required>
+          <label>Nội dung</label>
+          <textarea placeholder="Nội dung liên hệ..." required></textarea>
+          <button type="submit">Gửi</button>
+        </form>
+      </div>
+      <div class="contact-info">
+        <h3>Thông tin cửa hàng</h3>
+        <p>📧 support@beautyshop.vn</p>
+        <p>☎️ 0909 999 999</p>
+        <p>🏠 Địa chỉ: Quận 1, TP. HCM</p>
+        <h4>Giờ làm việc</h4>
+        <p>Thứ 2 - Thứ 7: 9:00 – 18:00</p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2025 BeautyShop. All rights reserved.</p>
+    </div>
+  </footer>
+
+<script src="script.js"></script>
+</body>
+</html>

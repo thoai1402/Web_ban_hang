@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BeautyShop - Mỹ phẩm chính hãng</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">💖 BeautyShop</div>
+      <nav class="main-nav">
+        <a href="#" class="active">Trang chủ</a>
+        <a href="products.html">Sản phẩm</a>
+        <a href="contact.html">Liên hệ</a>
+        <a href="cart.html" onclick="toggleCart()">🛒 Giỏ hàng (<span id="cart-count">0</span>)</a>
+
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Khám phá vẻ đẹp tự nhiên cùng BeautyShop</h1>
+      <p>Mỹ phẩm chính hãnh, an toàn – tôn vinh làn da và cá tính của bạn.</p>
+      <div class="hero-cta">
+        <a href="products.html" class="btn">Mua ngay</a>
+        <a href="contact.html" class="btn btn-outline">Liên hệ tư vấn</a>
+      </div>
+    </div>
+    <div class="hero-image">
+      <img src="img/1jpg.jpg" alt="Beauty Products">
+    </div>
+  </section>
+
+  <!-- PRODUCTS -->
+  <section id="products" class="container">
+    <h2 class="page-title">🌸 Sản phẩm nổi bật</h2>
+    <div class="products-grid" id="product-list">
+      <!-- Sản phẩm sẽ được thêm tự động bằng JS -->
+    </div>
+  </section>
+
+
+    <!-- Phần Liên hệ -->
+  <section id="contact" class="contact-section">
+    <h2>Liên hệ với BeautyShop</h2>
+    <p>Đội ngũ BeautyShop luôn sẵn sàng lắng nghe và hỗ trợ bạn 💖</p>
+
+    <form class="contact-form" onsubmit="return false;">
+      <input type="text" placeholder="Họ và tên" required>
+      <input type="email" placeholder="Email" required>
+      <textarea placeholder="Nội dung cần tư vấn" rows="4" required></textarea>
+      <button type="submit" class="btn">Gửi liên hệ</button>
+    </form>
+  </section>
+
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <p>© 2025 BeautyShop. Thiết kế bởi Thu Hoài 🌸</p>
+  </footer>
+<script src="script.js"></script>
+</body>
+</html>

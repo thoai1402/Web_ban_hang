@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Giỏ hàng - BeautyShop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">💖 BeautyShop</div>
+      <nav class="main-nav">
+        <a href="index.html">Trang chủ</a>
+        <a href="products.html">Sản phẩm</a>
+        <a href="contact.html">Liên hệ</a>
+        <a href="cart.html" class="active">🛒 Giỏ hàng (<span id="cart-count">0</span>)</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="container">
+    <h2>🛍️ Giỏ hàng của bạn</h2>
+    <div id="cartItems"></div>
+
+    <div style="margin-top:20px;">
+      <button class="btn" onclick="checkout()">💳 Thanh toán</button>
+      <button class="btn btn-clear" onclick="clearCart()">🗑️ Xóa giỏ hàng</button>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <p>© 2025 BeautyShop. Thiết kế bởi Thu Hoài 🌸</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
